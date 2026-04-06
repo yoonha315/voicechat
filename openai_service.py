@@ -1,4 +1,3 @@
-# 91% of storage used … If you run out, you can't create, edit, and upload files. Share 100 GB of storage with your family members for $0.69 for 3 months $2.79.
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
@@ -53,9 +52,3 @@ def tts(response: str):
 
     os.remove(filename)
     return base64_encoded
-
-
-
-
-
-
